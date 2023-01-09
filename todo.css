@@ -1,0 +1,209 @@
+* {
+    margin-top: 0;
+    margin-bottom: 0; 
+    box-sizing: border-box;
+}
+
+.body {
+    height: 4000px; 
+    background-color: white;  
+}
+
+.image {
+    
+    height: 350px; 
+    width: 1950px; 
+    position: fixed; 
+    top: 0; 
+    right: 0; 
+    left: 0; 
+    background-size: 100% auto;
+}
+
+.title {
+    position: fixed;
+    top: 100px;        /* this stretches to the top */
+    left: 315px;
+    font-family: Arial; 
+    font-size: 55px;
+    font-weight: bold; 
+    color: white; 
+    position: fixed;
+    margin-bottom: 0px;  
+    
+}
+
+.box {
+    width: 1000px; 
+    position: fixed; 
+    top: 200px; 
+    left: 700px;
+    margin-top: 0px; 
+}
+
+.todos {
+    font-family: Arial; 
+    font-size: 18px; 
+    width: 550px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: block;
+    position: fixed; 
+    left: 510px; 
+}
+
+.todos::placeholder {
+    font-family: Arial; 
+    font-size: 18px; 
+}
+
+#generateDate {
+    font-family: Arial; 
+    font-size: 18px; 
+    width: 550px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    top: 260px;    
+    margin-top: 8px; 
+    position: fixed; 
+    left: 510px; 
+}
+
+.date-input::placeholder {
+    font-family: Arial; 
+    font-size: 18px; 
+}
+
+.add-todo-button{
+   position: absolute; 
+   left: 385px;
+   top: 80px;
+   font-size: 20px; 
+   padding-right: 30px; 
+   padding-left: 30px; 
+   padding-top: 3px; 
+   padding-bottom: 3px; 
+
+   border-style: none;
+   background-color: white; 
+   border-color: #E0B0FF;
+   color: darkorchid; 
+   font-weight: bold; 
+   border-radius: 5px; 
+}
+
+
+#list-todo {
+    width: 550px;
+    position: absolute; 
+    top: 360px; 
+    left: 510px;
+    box-shadow: 0 0 30px #0000004d;
+    background-color: white;
+    z-index: -100; 
+   
+}
+
+.title-date {
+
+    width: 550px;
+    position: relative;
+    margin-top: 20px; 
+    margin-bottom: 30px;
+    position: relative; 
+    font-family: Arial; 
+        
+    
+}
+.title-date::after{
+    content: ""; 
+    position: absolute; 
+    width: 100%; 
+    height: 0.01rem; 
+    left: 0; 
+    bottom: -10px; 
+    background: lightgrey;  
+
+}
+
+.delete-button {
+  position: absolute; 
+  right: 6px;
+  bottom: 3px;  
+  font-size: 12px; 
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 10px; 
+  padding-left: 10px; 
+  border-style: none;
+  background-color: darkorchid;
+  color: white; 
+  font-weight: bold; 
+  border-radius: 5px; 
+}
+
+.edit-button {
+   position: absolute; 
+   right: 78px; 
+   bottom: 3px; 
+   font-size: 12px; 
+   padding-top: 3px;
+   padding-bottom: 3px;
+   padding-right: 16px; 
+   padding-left: 16px;
+   border-style: none;  
+   background-color:darkorchid; 
+   color: white; 
+   font-weight: bold; 
+   border-radius: 5px;
+}
+
+.textbox-title {
+  font-family: Arial; 
+  font-size: 18px; 
+  width: 550px; 
+  height: 50px; 
+}
+
+.textbox-title::placeholder{
+    font-family: Arial; 
+    font-size: 18px; 
+}
+
+.update-button {
+    margin-top: 0px; 
+    background-color: darkorchid; 
+    color: white;
+    border-style: none; 
+    height: 27px; 
+    width: 100px; 
+    border-radius: 5px; 
+    
+}
+
+.due-date {
+    margin-top: 0px;
+    font-family: Arial;
+    font-size: 18px; 
+    width: 130px; 
+    
+}
+
+.checkbox-todo {
+    border-radius: 100%;
+    margin-left: 10px; 
+    accent-color: darkorchid; 
+    width: 1.3em;
+    height: 1.3em; 
+    border-radius: 100px;  
+    cursor: pointer; 
+}
+
+@media only screen and (min-width: 912px) {
+    .image {
+        width: 100%; 
+        
+    }
+}
