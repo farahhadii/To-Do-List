@@ -210,7 +210,7 @@
 
             element.innerText = ' ' +  todo.titleTodo + ' ' + todo.dueDateTodo;
             element.style.fontSize = "18px";
-            element.setAttribute('class', 'title-date');
+            element.setAttribute('class', 'title-todo');
 
             const checkbox = document.createElement('input');        
             checkbox.type =  'checkbox';
