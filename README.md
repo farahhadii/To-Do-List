@@ -1,8 +1,8 @@
 # To-do-List
 A to-do list that allows users to add, remove, and edit their tasks.
 
-This to-do list increases user productivity by helping users prioritize their work and personal tasks; also, it provides a sense of accomplishment when crossing them off the list. In addition, it helps users stay on track by allowing them to set deadlines for each goal.
+This task management tool enhances user productivity by helping prioritize both work and personal tasks, providing a rewarding sense of accomplishment upon completion. Additionally, it assists users in staying focused by enabling them to set deadlines for each goal. 
 
-The MVC architectural pattern is utilized in this web application, which offers a clear separation of logic and increases user readability.
+The aim of this web application was to use the MVC architectural pattern, which offers a streamlined organization of logic, fostering enhanced maintainability, scalability, and user readability. 
  
 
