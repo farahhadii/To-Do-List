@@ -1,5 +1,4 @@
 # To-do-List
-A to-do list that allows users to add, remove, and edit their tasks.
 
 This task management tool boosts user productivity by aiding in the prioritization of both work and personal tasks, fostering a gratifying sense of accomplishment upon completion. Furthermore, it helps users maintain focus by allowing them to establish deadlines for each goal. 
 
